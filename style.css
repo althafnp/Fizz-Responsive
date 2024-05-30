@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #0a0b27;
+}
+
+.collapse{
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-nav{
+    font-size: 1.2rem;
+}
+
+.collapse ul li a{
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.collapse ul li a:hover{
+    color: rgba(247, 32, 32, 0.893);
+}
+.container-fluid{
+    --bs-gutter-x: 0;
+    margin: 0;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+
+.left-section{
+    background-color: black;
+    height: 40rem;
+}
+
+.leaf{
+    position: relative;
+}
+.fizz{
+    position: absolute;
+    transform: translate(0%, -12%);
+    font-size: 3rem;
+}
+
+.right-section{
+    padding: 4rem;
+}
+
+.para{
+    color: black;
+}
+footer .row{
+    font-size: 14px;
+}
+.row a{
+    text-decoration: none;
+    color: black;
+}
+.row a:hover{
+    text-decoration: underline;
+    color: rgba(236, 50, 50, 0.988);
+}
+.icons .fa-brands{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #000;
+    margin-right: 15px;
+    transition: 0.5s ease-in-out;
+} 
+.icons .fa-brands:hover{
+    background-color: rgba(247, 32, 32, 0.893);
+}
